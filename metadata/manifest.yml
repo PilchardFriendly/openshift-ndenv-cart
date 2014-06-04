@@ -17,13 +17,12 @@ Categories:
   - service
   - web_framework
 Website: https://github.com/PilchardFriendly/openshift-ndenv-cart
-Cart-Data:
 Provides:
   - c9-3.0
   - c9
 Group-Overrides:
-- components:
-  - c9-3.0
+  - components:
+    - c9-3.0
 Scaling:
   Min: 1
   Max: 1
