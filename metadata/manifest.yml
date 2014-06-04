@@ -19,8 +19,6 @@ Help-Topics:
   "Developer Center": https://openshift.redhat.com/community/developers
 Cart-Data:
 Provides:
-  - php-5.3
-  - "php"
 Publishes:
   publish-http-url:
     Type: "NET_TCP:httpd-proxy-info"
