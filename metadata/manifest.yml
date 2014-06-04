@@ -20,9 +20,6 @@ Website: https://github.com/PilchardFriendly/openshift-ndenv-cart
 Provides:
   - c9-3.0
   - c9
-Group-Overrides:
-  - components:
-    - c9-3.0
 Scaling:
   Min: 1
   Max: 1
@@ -32,7 +29,7 @@ Endpoints:
     Private-Port:      8181
     Public-Port-Name:  PROXY_HTTP_PORT
     Mappings:
-      - Frontend:      "/front"
-        Backend:       "/back"
+      - Frontend:      ""
+        Backend:       ""
 Additional-Control-Actions:
   - threaddump
