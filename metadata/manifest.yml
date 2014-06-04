@@ -15,11 +15,13 @@ License-Url: http://www.php.net/license/3_0.txt
 Vendor: Cloud 9
 Categories:
   - service
+  - web_framework
 Website: https://github.com/PilchardFriendly/openshift-ndenv-cart
 Help-Topics:
   "Developer Center": https://openshift.redhat.com/community/developers
 Cart-Data:
 Provides:
+
 Publishes:
   publish-http-url:
     Type: "NET_TCP:httpd-proxy-info"
