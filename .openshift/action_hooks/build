@@ -13,3 +13,4 @@ $NDENV_CMD rehash
 echo Installing local node
 
 $NDENV_CMD install `$NDENV_CMD local` -f
+$NDENV_CMD rehash
