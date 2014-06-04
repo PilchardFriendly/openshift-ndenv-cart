@@ -1,2 +1,15 @@
 #!/usr/bin/env bash
-echo "Stub Building"
+CURRENT_DIR=$( cd "$( dirname "$0" )" && pwd )
+BASE_DIR=$CURRENT_DIR/../..
+
+echo Setting up ndenv...
+NDENV_CMD=$BASE_DIR/ndenv/bin/ndenv
+NDENV_ROOT=${NDENV_ROOT:-$BASE_DIR/ndenv}
+export NDENV_ROOT
+eval "$($NDENV_CMD init -)"
+cd $BASE_DIR
+$NDENV_CMD rehash
+
+echo Installing local node
+
+$NDENV_CMD install `$NDENV_CMD local` -f
