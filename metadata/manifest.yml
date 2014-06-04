@@ -1,10 +1,11 @@
-Name: ndenv Environment cartridge
+---
+Name: "ndenv Environment cartridge"
 Cartridge-Short-Name: ndenv
 Cartridge-Version: '1.0.0'
 Compatible-Versions:
   - '1.0.0'
 Cartridge-Vendor: ThoughtWorks
-Display-Name: ndenv Environment
+Display-Name: "ndenv Environment"
 Description: "Node is self hostable using ndenv"
 Version: '3-alpha'
 Versions:
