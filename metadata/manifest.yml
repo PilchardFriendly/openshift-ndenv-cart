@@ -1,12 +1,12 @@
 ---
-Name: Cloud9 Development Environment"
-Cartridge-Short-Name: ndenv
+Name: Cloud9
+Cartridge-Short-Name: cloud9
 Cartridge-Version: '1.0.0'
 Compatible-Versions:
   - '1.0.0'
 Cartridge-Vendor: thoughtworks
-Display-Name: "ndenv Environment"
-Description: "Node is self hostable using ndenv"
+Display-Name: "Cloud 9 Development Environment"
+Description: "A development environment using cloud 9"
 Version: '3-alpha'
 Versions:
   - '3-alpha'
